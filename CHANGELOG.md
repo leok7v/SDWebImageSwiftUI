@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.1.4] - 2025-11-03
+- Xcode 26 Compliant (Update SDWebImage to 5.21.1) #354
+
 ## [3.1.3] - 2024-11-06
 - Fixed old version compiler does not support automatic self capture in Xcode 14.2 and Swift 5.7.2 #340
 - Fix the data race because progress block is called in non-main queue #341

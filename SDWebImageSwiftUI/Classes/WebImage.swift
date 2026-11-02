@@ -164,7 +164,6 @@ public struct WebImage<Content> : View where Content: View {
                     displayImage()
                 }
             } else {
-                content((imageManager.error != nil) ? .failure(imageManager.error!) : .empty)
                 setupInitialState()
                 // Load Logic
                 .onAppear {

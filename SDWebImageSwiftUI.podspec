@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SDWebImageSwiftUI'
-  s.version          = '3.1.3'
+  s.version          = '3.1.4'
   s.summary          = 'SwiftUI Image loading and Animation framework powered by SDWebImage'
 
   s.description      = <<-DESC
@@ -37,6 +37,6 @@ It brings all your favorite features from SDWebImage, like async image loading, 
   }
 
   s.weak_frameworks = 'SwiftUI', 'Combine'
-  s.dependency 'SDWebImage', '~> 5.10'
+  s.dependency 'SDWebImage', '~> 5.21.1'
   s.swift_version = '5.3'
 end
