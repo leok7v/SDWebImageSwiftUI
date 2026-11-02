@@ -14,7 +14,7 @@ permissions:
 jobs:
   Pods:
     name: Cocoapods Lint
-    runs-on: macos-14
+    runs-on: macos-latest
     env:
       DEVELOPER_DIR: /Applications/Xcode_15.2.app
     steps:
@@ -40,7 +40,7 @@ jobs:
           
   Demo:
     name: Run Demo
-    runs-on: macos-14
+    runs-on: macos-latest
     env:
       DEVELOPER_DIR: /Applications/Xcode_15.2.app
       WORKSPACE_NAME: SDWebImageSwiftUI.xcworkspace
@@ -97,7 +97,7 @@ jobs:
           
   Test:
     name: Unit Test
-    runs-on: macos-14
+    runs-on: macos-latest
     env:
       DEVELOPER_DIR: /Applications/Xcode_15.2.app
       WORKSPACE_NAME: SDWebImageSwiftUI.xcworkspace
@@ -163,7 +163,7 @@ jobs:
           
   Build:
     name: Build Library
-    runs-on: macos-14
+    runs-on: macos-latest
     env:
       DEVELOPER_DIR: /Applications/Xcode_15.2.app
       PROJECT_NAME: SDWebImageSwiftUI.xcodeproj
